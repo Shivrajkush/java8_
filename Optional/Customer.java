@@ -36,8 +36,8 @@ public class Customer {
         this.name = name;
     }
 
-    public Optional<String> getEmail() {
-        return Optional.ofNullable(email);
+    public String getEmail() {
+        return email;
     }
 
     public void setEmail(String email) {
